@@ -7,13 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1ZikrqOdX7lkAmIh0EImbc9SKEmO4AkLP
 """
 
-requisitos = '''
+requirements = '''
 streamlit
 pandas
-langchain
-langchain-openai
-langchain-experimental
+langchain==0.1.20
+langchain-core==0.1.35
+langchain-openai==0.1.6
+langchain-experimental==0.0.51
 '''
 
 with open("requirements.txt", "w") as f:
-    f.write(requisitos)
+    f.write(requirements)
