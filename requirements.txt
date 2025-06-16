@@ -1,6 +1,5 @@
 streamlit
 pandas
 langchain==0.1.20
-langchain-core==0.1.35
 langchain-openai==0.1.6
 langchain-experimental==0.0.51
